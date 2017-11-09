@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>PAPERS</title>
-  <link href="https://unpkg.com/spectre.css/dist/spectre.min.css" rel='stylesheet' type='text/css' />
+  <link href="./static/css/spectre.min.css" rel='stylesheet' type='text/css' />
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css' />
 </head>
 
@@ -13,7 +13,7 @@
   <!-- <div class="wrapper container" style="max-width: 40rem; background: none;"> -->
   <header id="gnb" class="navbar">
     <section class="navbar-section">
-      <img class="rounded brand img" src="../static/img/logo-516x.png" alt="">
+      <img class="rounded brand img" src="./static/img/logo-516x.png" alt="">
       <div class="brand">
         <label class="brand">PAPERS</label>
       </div>
@@ -32,7 +32,7 @@
     <div class="container">
       <div class="featured-image"></div>
       <div id="content" class="column col-12">
-        <h1 id="title">글의 제목을 나타냅니다. <label class="tag label">예시</label></h1>
+        <h1 id="title">글의 제목을 나타냅니다. <label class="tag label">카테고리</label></h1>
         <!-- <h2 id="sub-title">글의 부제목을 나타냅니다.</h2> -->
         <div class="tags">
           <label class="tag label">#이건</label>
@@ -42,7 +42,7 @@
           <label class="tag label">#권력</label>
           <label class="tag label">#국민</label>
         </div>
-        <span class="datetime label">2017-01-01 01:00</span>
+        <span class="datetime label">2017년 01월 01일 01시 00분</span>
         <div class="article">
           <h2>대한민국 헌법</h2>
           <p>
@@ -90,6 +90,9 @@
       </div>
     </div>
   </div>
+  <footer>
+    &copy; CHANN
+  </footer>
 </body>
 
 
@@ -109,7 +112,7 @@ header {
   max-width: 40rem;
   padding: 0 2rem 3rem 2rem;
   /* margin-top: 2rem; */
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
@@ -186,6 +189,11 @@ blockquote {
 }
 .article {
   margin-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem auto;
 }
 
 /* @media only screen and (max-width: 50rem) { */
